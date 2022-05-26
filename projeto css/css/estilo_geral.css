@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    font: 100% sans-serif;
+    background: #ccc;
+}
+
+body > nav > ul {
+    position: absolute;
+    margin: 10px 20px;
+    right: 0;
+    top: 0;
+    padding: 0.6rem; 
+    font-size: 1rem; 
+}
+
+body > nav > ul > li {
+    transition: 0.5s;
+    border: solid 1px #fff;
+    background: rgba(0, 0, 0, .1); 
+    margin: 0 10px;  
+    border-radius: 5px; 
+}
+
+body > nav > ul > li:hover {
+    background: rgba(0, 0, 0, .3);
+    border: solid 1px #000;
+}
+
+body > nav > ul > li > a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+}
+
+section h2 {
+    border-bottom: 2px solid #ccc;
+    padding: .75rem;
+    background: #eee;
+    font-size: 1.5rem;
+    font-weight: bold; margin-bottom: .5rem;
+}
+
+.jumbotron {
+    min-height: 80vh;
+    background-image: url(../imgs/bg-3.jpg);
+    background-size: cover;
+    background-position: right center;
+    color: #fff;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    font-size: 3.5rem;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.8);
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    pointer-events: none;
+}
+
+.jumbotron p {
+    padding: 1rem;
+    font-size: 1.1rem;
+    background: rgba(0, 0, 0, 0.8);
+    border-bottom: solid 4px #fff;
+    display: inline-block;
+    pointer-events: none;
+}
+
+.cards-container {
+    padding: .75rem 1.25rem;
+}
+
+.cards-container [class^="col"] {
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.cards-container .card {
+    border-radius: 0;
+    border: none;
+}
+
+.cards-container .card-body:hover {
+    font-size: 1rem;
+}
+
+.cards-container .card-body {
+    background: rgb(70, 70, 70);
+    padding: 1rem .75rem;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: .8rem;
+    color: #fff;
+    text-align: center;
+    transition: .5s;
+    cursor: pointer;
+}
+
+article {
+    background: #fff;    
+    height: 200px;
+}
+
+article h2 {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    background: rgba(0, 0, 0, .3);
+}
+
+article p {
+    margin: 10px 10px;
+    font-size: 1.2rem;   
+}
+
+footer {    
+    height: 50px;
+    background: rgba(0, 0, 0, .3);
+    font-size: 1.2rem;   
+}
+
+
+
